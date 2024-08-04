@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- CSS -->
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap -->
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Boxiocns CDN Link -->
+    <!-- Link to Boxicons CSS file -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <!-- Link to Font Awesome JavaScript library -->
+    <script
+      src="https://kit.fontawesome.com/2460e15f1f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4 -->
+    <!-- Link to Bootstrap 4 CSS -->
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <!-- Bootstrap 4 JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Title of the page -->
+    <title>Smart Water Tank</title>
+
+    <!-- Internal CSS styles -->
+    <style>
+      /* Add your custom CSS styles here */
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <div class="navbar-div">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <!-- Logo and brand name -->
+              <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-water"></i>
+                Intelligent Fill
+              </a>
+            </div>
+          </nav>
+          <!-- Navbar toggler for responsive design -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#outer">Water Level</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#buy">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Help</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+        <!-- Carousel Item 1 -->
+        <div class="carousel-item active">
+          <img src="Slide 1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Why do We need to Save water!!</h5>
+          </div>
+        </div>
+        <!-- Carousel Item 2 -->
+        <div class="carousel-item">
+          <img src="Slide 2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Why do We need to Save water!!</h5>
+          </div>
+        </div>
+        <!-- Carousel Item 3 -->
+        <div class="carousel-item">
+          <img src="Header.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Why do We need to Save water!!</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Section for Water Level -->
+    <div class="heading">
+      <h1>Water Level</h1>
+    </div>
+    <div id="outer">
+      <div class="basic">
+        <!-- Placeholder for content related to water level -->
+        <iframe src="basic_page/" name="iframe_a"></iframe>
+      </div>
+    </div>
+
+    <!-- Section for Buying Parts -->
+    <div class="heading">
+      <h1>Buy Parts</h1>
+    </div>
+    <div id="buy">
+      <!-- Cards for displaying parts with Buy Now buttons -->
+      <!-- Card 1 -->
+      <div class="card" style="width: 18rem">
+        <img src="Breadboard.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Breadboard</h5>
+          <a href="https://www.amazon.in/Ties-Mini-Solderless-Universal-Breadboard/dp/B0B9T54G16?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3C7Z4RVM9A3G1" class="btn btn-primary" target="_blank">Buy Now</a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card" style="width: 18rem">
+        <img src="Arduino_Uno_-_R3.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Aurdino</h5>
+          <a href="https://www.amazon.in/Arduino-UNO-board-DIP-ATmega328P/dp/B008GRTSV6/ref=sr_1_7?crid=2FTPEUOWP85O5&dib=eyJ2IjoiMSJ9.VMi0FIdqGGm-sIVx1p1N3UGWCUZ6bKz22ktAQftSteygGP7dx6brR9yN-l0ZY7lnr95YnHzcOsjnluLgke5typ1fIqyPfplb8TghfyNyYl7WnKwzJ3kUpdxijD9oN626cmgBfeemzl5Dq1wIESEEksu8r619vnppVPuYzKh1kb9d4CEAGtPJoUQR22rPJG58SM54U4_p7Jd0MwG7tJ41312uo7S39ot-vqiakg1_4MY6ZYcbirh7R2lBLWj2wuuYD3DB15BgO2dRzUxtIBmp8uQ5O8ecfKZlwB4Ox6o158s.X-oKPiuyywDAi_8bO78Ilg-SgWKfdj0z2VpKtWMXwew&dib_tag=se&keywords=arduino&qid=1714066828&s=industrial&sprefix=aurdini%2Cindustrial%2C424&sr=1-7" class="btn btn-primary" target="_blank">Buy Now</a>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="hc-sr04-ultrasonic-sensor.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Ultrasonic Sensor</h5>
+          <a href="https://www.amazon.in/Banggood-Ultrasonic-Distance-Measuring-Transducer/dp/B01I1ZTPJC/ref=sr_1_4?crid=3L22U07J2Q0Y3&dib=eyJ2IjoiMSJ9.jbinlWsJ3WobErGdmmj3gP3UPob5mVipJectKqfOB9EoaGBpOx_VwjDS_oGokxvvSyciZMaDlV4_WepaQeif2OfLADBD3DoEfTzrvEPUnbYeijkWLoM857OGKj5-2okXoQBm8EzR27WO174kWRwGKnHhvPnptNCq9qTpn5NSTGsWBp4phso871zAHSiJbJYxrRb_dfE9GUMNDugW0HT5s82Cbihy4LTM6un6yf0oVShe4KuKkcDs2_7d9BXpur2yWvf3ggr_ubIt644a_Hvh6ZkAX0APBNKHfS8d4MCLRco.5RK1Rg_5XZlHAYXGH2S680af4duTkCue_OzPWXJ-sLU&dib_tag=se&keywords=ultrasonic+sensor&qid=1714066863&s=industrial&sprefix=ultra%2Cindustrial%2C363&sr=1-4" class="btn btn-primary" target="_blank">Buy Now</a>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card" style="width: 18rem">
+        <img src="Jumper Wire.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Jumper Wire</h5>
+          <a href="https://www.amazon.in/Robotbanao-Female-Breadboard-Arduino-Raspberry/dp/B08TC3H64C/ref=sr_1_1_sspa?crid=3I2V91BE8L4ZW&dib=eyJ2IjoiMSJ9.bbviXnwX4ad1hEYobvFCPk-bqjtHJMVdNxb9q7DqtdKI-Fa_g_RI9AvYZcWGKau92ioIkysivWHkRQNP-k5yuU-HlooVNt7b1hs_RCljDN4v-HtIpY_EpfvcQuyyqCPcYnzribd7qmU8vutlpDveovjCGLfg23uKDYZs1ieY1tJeLa2BPf1QDbtLEdO3ay6VzQyM5kd0He1TksgD0OrCenrQiUSBqKS0g0kCyp6wtH0DRtgdwUYQgw3ru1RNi75YotG9wFnI6GlcSHk6y-39hLbM6ErZsOFThHL5Dd8DMLA.Se7PpoGLLFo8fmp4SWkWiE7bYtFlMFE3X6eOGFOsxso&dib_tag=se&keywords=jumper+wires&qid=1714066912&s=industrial&sprefix=Jumper+%2Cindustrial%2C368&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn btn-primary" target="_blank">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <!-- Details -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Details</h5>
+            <ul class="list-unstyled quick-links">
+              <!-- List of group members with their IDs -->
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i>22BCE11414 - Yash
+                  Singh</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i>22BCE11178 - Neeraj
+                  Kumar Prajapati</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i>22BCE11381 - Shashwat
+                  Singh</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i>22BCE10214 - Harleen
+                  Kaur Pama</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i>22BCE10805 -
+                  Akshit</a
+                >
+              </li>
+              <!-- Add more list items as needed -->
+            </ul>
+          </div>
+          <!-- Help -->
+          <div class="help col-xs-12 col-sm-4 col-md-4">
+            <h5>Help</h5>
+            <ul class="list-unstyled quick-links">
+              <!-- Contact emails for help -->
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i
+                  >yashsingh2022@vitbhopal.ac.in</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i
+                  >neerajkumarprajapati@vitbhopal.ac.in</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i
+                  >shashwatsingh2022@vitbhopal.ac.in</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i
+                  >harleenkaurpama2022@vitbhopal.ac.in</a
+                >
+              </li>
+              <li>
+                <a href="javascript:void();"
+                  ><i class="fa fa-angle-double-right"></i
+                  >akshit2022@vitbhopal.ac.in</a
+                >
+              </li>
+              <!-- Add more list items as needed -->
+            </ul>
+          </div>
+        </div>
+        <!-- Social Media Links -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item">
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              </li>
+              <!-- Add more social media links as needed -->
+            </ul>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="row">
+          <div
+            class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"
+          >
+            <p class="h6">
+              &copy All right Reversed.<a
+                class="text-green ml-2"
+                href="#"
+                target="_blank"
+                >Group 225</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
