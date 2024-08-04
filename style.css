@@ -1,0 +1,165 @@
+/* Importing Font Awesome for icons */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Global styles */
+body {
+  background-color: rgb(255, 255, 255) !important; /* Set background color */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Styles for the #outer container */
+#outer {
+  width: 33% !important; /* Set width */
+  text-align: center; /* Center align content */
+  margin: auto !important; /* Center the container horizontally */
+  display: block !important; /* Make sure it's displayed as a block */
+  border: 1px solid grey; /* Add a border */
+  margin: 0%; /* Reset margin */
+  width: 100%; /* Ensure full width */
+  top: 30%; /* Position from the top */
+  height: 500px; /* Set height */
+}
+
+/* Styles for the .basic container */
+.basic {
+  /* Flexbox layout */
+  display: flex;
+}
+
+/* Styles for carousel images */
+.carousel-item img {
+  height: 600px; /* Set height for carousel images */
+}
+
+/* Styles for the #buy container */
+#buy {
+  display: flex; /* Flexbox layout */
+  gap: 3rem; /* Gap between items */
+  flex-wrap: wrap; /* Wrap items */
+  position: relative; /* Position relative */
+  left: 10%; /* Position from the left */
+  top: 30%; /* Position from the top */
+  margin-bottom: 5%; /* Bottom margin */
+}
+
+/* Styles for headings */
+.heading {
+  display: block; /* Display as block */
+  text-align: center; /* Center align text */
+  margin: auto; /* Center the container horizontally */
+  margin-top: 5%; /* Top margin */
+  margin-bottom: 5%; /* Bottom margin */
+}
+
+/* Styles for cards */
+.card {
+  /* Gradient background */
+  background: linear-gradient(to top, #102c57 50%, #dac0a3 50%);
+  background-size: 100% 200%; /* Background size */
+  background-position: top; /* Background position */
+  transition: all 0.5s ease-out; /* Transition effect */
+}
+
+.card:hover {
+  background-position: bottom; /* Change background position on hover */
+  border: 1px solid black; /* Add border on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+.card .btn {
+  margin-top: 10px; /* Top margin for buttons */
+}
+
+.card img {
+  height: 200px; /* Set height for images inside cards */
+}
+
+/* Styles for sections */
+section {
+  padding: 60px 0; /* Padding for sections */
+}
+
+/* Styles for footer */
+#footer {
+  background: #000000 !important; /* Background color for footer */
+}
+
+#footer h5 {
+  padding-left: 10px; /* Left padding for footer headings */
+  border-left: 3px solid #eeeeee; /* Left border for footer headings */
+  padding-bottom: 6px; /* Bottom padding for footer headings */
+  margin-bottom: 20px; /* Bottom margin for footer headings */
+  color: #ffffff; /* Text color for footer headings */
+}
+
+/* Styles for footer links */
+#footer a {
+  color: #ffffff; /* Text color for links */
+  text-decoration: none !important; /* Remove underline */
+  background-color: transparent; /* Transparent background */
+  -webkit-text-decoration-skip: objects; /* Skip text decoration for objects */
+}
+
+/* Styles for social media icons in footer */
+#footer ul.social li {
+  padding: 3px 0; /* Padding for social media icons */
+}
+
+#footer ul.social li a i {
+  margin-right: 5px; /* Right margin for social media icons */
+  font-size: 25px; /* Font size for social media icons */
+  -webkit-transition: 0.5s all ease; /* Transition effect */
+  -moz-transition: 0.5s all ease; /* Transition effect */
+  transition: 0.5s all ease; /* Transition effect */
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px; /* Increase font size on hover */
+  margin-top: -10px; /* Adjust margin on hover */
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+  color: #ffffff; /* Text color for links */
+}
+
+#footer ul.social li a:hover {
+  color: #eeeeee; /* Text color on hover */
+}
+
+/* Styles for quick links in footer */
+#footer ul.quick-links li {
+  padding: 3px 0; /* Padding for quick links */
+  -webkit-transition: 0.5s all ease; /* Transition effect */
+  -moz-transition: 0.5s all ease; /* Transition effect */
+  transition: 0.5s all ease; /* Transition effect */
+}
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0; /* Padding on hover */
+  margin-left: 5px; /* Adjust margin on hover */
+  font-weight: 700; /* Bold font on hover */
+}
+
+#footer ul.quick-links li a i {
+  margin-right: 5px; /* Right margin for icons */
+}
+
+#footer ul.quick-links li:hover a i {
+  font-weight: 700; /* Bold font for icons on hover */
+}
+
+/* Styles for help section */
+.help {
+  margin-left: 33% !important; /* Left margin for help section */
+}
+
+@media (max-width: 767px) {
+  /* Media query for small screens */
+  #footer h5 {
+    padding-left: 0; /* Reset left padding */
+    border-left: transparent; /* Remove left border */
+    padding-bottom: 0px; /* Reset bottom padding */
+    margin-bottom: 10px; /* Bottom margin */
+  }
+}
